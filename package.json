@@ -1,0 +1,23 @@
+{
+  "name": "redditclone",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DeMarre/redditproject.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DeMarre/redditproject/issues"
+  },
+  "homepage": "https://github.com/DeMarre/redditproject#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "node-fetch": "^3.2.6"
+  }
+}
