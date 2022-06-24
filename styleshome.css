@@ -1,0 +1,48 @@
+
+.header {grid-area:header;
+    background-color: pink;}
+    .sidebar {grid-area:sidebar;
+    background-color: aquamarine;}
+    .content {grid-area:content;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+    }
+
+
+/* .card{
+    background-color: black;
+    color: white;
+    width: 300px;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr ;
+    grid-template-rows: 170px 1fr 2fr ;
+    grid-template-areas: 
+    "titleimg titleimg titleimg"
+    "uploaderimg title kebabmenu"
+    "uploaderimg uploaderdetails kebabmenu" ;
+}
+
+/*  .body {
+
+}
+
+
+
+*/
+
+
+
+
+
+
+
+/*
+.cardtitleimg {grid-area: titleimg;
+max-width: 100%;}
+.carduploaderimg {grid-area: uploaderimg;
+width: 50px;}
+.cardtitle{grid-area:title;}
+.uploaderdetails{grid-area: uploaderdetails;}
+.kebabmenu{grid-area: kebabmenu;} */
